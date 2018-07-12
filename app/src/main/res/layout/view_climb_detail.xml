@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="45dp"
+    android:paddingVertical="0dp">
+
+    <TextView
+        android:id="@+id/textClimbName"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@color/colorGreen"
+        android:text="@string/climb_difficulty"
+        android:textColor="@color/colorWhite"
+        android:textStyle="bold"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/textClimbType"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:text="@string/climb_type"
+        android:paddingStart="16dp"
+        android:textStyle="bold"
+        android:gravity="center_vertical"/>
+
+</LinearLayout>

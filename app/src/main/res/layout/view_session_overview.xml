@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="75dp"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true">
+
+            <TextView
+                android:id="@+id/sessionTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Session Title"/>
+
+            <TextView
+                android:id="@+id/sessionOverviewTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/sessionTitle"
+                android:text="2:40pm"/>
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:padding="4dp"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+
+        <View
+            android:id="@+id/barGreen"
+            android:layout_width="0dp"
+            android:layout_height="75dp"
+            android:background="@color/colorGreen"/>
+
+        <View
+            android:id="@+id/barOrange"
+            android:layout_width="0dp"
+            android:layout_height="75dp"
+            android:background="@color/colorOrange"/>
+
+        <View
+            android:id="@+id/barRed"
+            android:layout_width="0dp"
+            android:layout_height="75dp"
+            android:background="@color/colorRed"/>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
